@@ -221,8 +221,8 @@ about:
       title: Access statistics
       post_tip: 'Stats from:'
   personalities:
-    tip1: At
-    tip2: 'Learn more:'
+    tip1: 'Go to'
+    tip2: 'to learn more about'
 
 message:
   close: Hide message
