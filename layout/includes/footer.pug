@@ -54,7 +54,7 @@ div#footer-bar
             else
                 div.copyright © #{moment(theme.aside.siteinfo.runtime).year()} - #{new Date().getFullYear()} By&nbsp;
                     a.footer-bar-link(href=url_for("/"))= config.author
-        div.footer-bar-right
+        div.footer-bar-right Proudly using
             each item in theme.footer.links
                 a.footer-bar-link(href=url_for(item.url), alt=item.name)!= item.name
             if theme.footer.license
